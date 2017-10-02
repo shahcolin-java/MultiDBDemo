@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cs.config.DatabaseConfiguration",
+      "name": "spring.datasource.dbadmin",
+      "sourceMethod": "public javax.sql.DataSource adminDataSource() ",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.cs.config.DatabaseConfiguration",
+      "name": "spring.datasource.dbuser",
+      "sourceMethod": "public javax.sql.DataSource userDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
